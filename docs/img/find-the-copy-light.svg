@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="470" viewBox="0 0 940 470" role="img" aria-label="How a copied photo is found, even inside a screenshot. A screenshot of a listing page arrives. Step 1: the photo rectangle inside the page is found. Step 2: its fingerprints, a PDQ hash and a DINOv2 vector, are compared with the stored photos. Step 3: matching points between the two photos are checked geometrically. Result: a copy, with a side-by-side picture as proof; no matching points, no copy. Screenshots found: 18% for the best published method, 76.3% for this system, measured on different photo sets." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"><title>How a copied photo is found, even inside a screenshot. A screenshot of a listing page arrives. Step 1: the photo rectangle inside the page is found. Step 2: its fingerprints, a PDQ hash and a DINOv2 vector, are compared with the stored photos. Step 3: matching points between the two photos are checked geometrically. Result: a copy, with a side-by-side picture as proof; no matching points, no copy. Screenshots found: 18% for the best published method, 76.3% for this system, measured on different photo sets.</title><rect x="0.5" y="0.5" width="939" height="469" rx="12" fill="#f6f8fa" stroke="#d0d7de"/><rect x="24" y="30" width="152" height="178" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<path d="M180 119L196.5 119" fill="none" stroke="#59636e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M205 119L196 114L196 124Z" fill="#59636e"/>
+<rect x="209" y="30" width="152" height="178" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.8"/>
+<path d="M365 119L381.5 119" fill="none" stroke="#59636e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M390 119L381 114L381 124Z" fill="#59636e"/>
+<rect x="394" y="30" width="152" height="178" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.8"/>
+<path d="M550 119L566.5 119" fill="none" stroke="#59636e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M575 119L566 114L566 124Z" fill="#59636e"/>
+<rect x="579" y="30" width="152" height="178" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.8"/>
+<path d="M735 119L751.5 119" fill="none" stroke="#59636e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M760 119L751 114L751 124Z" fill="#59636e"/>
+<rect x="764" y="30" width="152" height="178" rx="12" fill="#dafbe1" stroke="#1a7f37" stroke-width="1.8"/>
+<circle cx="225" cy="46" r="13" fill="#0969da"/>
+<text x="225" y="51.2" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">1</text>
+<circle cx="410" cy="46" r="13" fill="#0969da"/>
+<text x="410" y="51.2" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">2</text>
+<circle cx="595" cy="46" r="13" fill="#0969da"/>
+<text x="595" y="51.2" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">3</text>
+<rect x="50" y="44" width="100" height="150" rx="10" fill="#ffffff" stroke="#59636e" stroke-width="1.5"/>
+<rect x="60" y="53" width="26" height="4" rx="2" fill="#59636e"/>
+<rect x="120" y="53" width="20" height="4" rx="2" fill="#59636e"/>
+<rect x="60" y="64" width="80" height="10" rx="3" fill="#eaeef2"/>
+<rect x="60" y="81" width="80" height="58" rx="4" fill="#eaeef2" stroke="#59636e" stroke-width="1.5"/>
+<circle cx="117.6" cy="98.4" r="5.8" fill="#59636e"/>
+<path d="M66.4 130.9L88.8 107.1L104.8 121.6L116 113.5L133.6 130.9Z" fill="#59636e"/>
+<rect x="60" y="147" width="64" height="6" rx="3" fill="#afb8c1"/>
+<rect x="60" y="158" width="48" height="6" rx="3" fill="#afb8c1"/>
+<rect x="60" y="172" width="80" height="13" rx="6" fill="#eaeef2"/>
+<rect x="235" y="44" width="100" height="150" rx="10" fill="#ffffff" stroke="#59636e" stroke-width="1.5"/>
+<rect x="245" y="53" width="26" height="4" rx="2" fill="#59636e"/>
+<rect x="305" y="53" width="20" height="4" rx="2" fill="#59636e"/>
+<rect x="245" y="64" width="80" height="10" rx="3" fill="#eaeef2"/>
+<rect x="245" y="81" width="80" height="58" rx="4" fill="#ddf4ff" stroke="#0969da" stroke-width="2.5"/>
+<circle cx="302.6" cy="98.4" r="5.8" fill="#0969da"/>
+<path d="M251.4 130.9L273.8 107.1L289.8 121.6L301 113.5L318.6 130.9Z" fill="#0969da"/>
+<rect x="245" y="147" width="64" height="6" rx="3" fill="#afb8c1"/>
+<rect x="245" y="158" width="48" height="6" rx="3" fill="#afb8c1"/>
+<rect x="245" y="172" width="80" height="13" rx="6" fill="#eaeef2"/>
+<path d="M241 91V77H255" fill="none" stroke="#0969da" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M329 91V77H315" fill="none" stroke="#0969da" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M241 129V143H255" fill="none" stroke="#0969da" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M329 129V143H315" fill="none" stroke="#0969da" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="406" y="76" width="50" height="38" rx="4" fill="#ddf4ff" stroke="#0969da" stroke-width="2"/>
+<circle cx="442" cy="87.4" r="3.8" fill="#0969da"/>
+<path d="M410 108.7L424 93.1L434 102.6L441 97.3L452 108.7Z" fill="#0969da"/>
+<text x="431" y="134" font-size="14" fill="#59636e" text-anchor="middle">this photo</text>
+<rect x="496" y="80" width="40" height="30" rx="4" fill="#ffffff" stroke="#59636e" stroke-width="1.5"/>
+<circle cx="524.8" cy="89" r="3" fill="#59636e"/>
+<path d="M499.2 105.8L510.4 93.5L518.4 101L524 96.8L532.8 105.8Z" fill="#59636e"/>
+<rect x="491" y="75" width="40" height="30" rx="4" fill="#ffffff" stroke="#59636e" stroke-width="1.5"/>
+<circle cx="519.8" cy="84" r="3" fill="#59636e"/>
+<path d="M494.2 100.8L505.4 88.5L513.4 96L519 91.8L527.8 100.8Z" fill="#59636e"/>
+<rect x="486" y="70" width="40" height="30" rx="4" fill="#eaeef2" stroke="#59636e" stroke-width="1.5"/>
+<circle cx="514.8" cy="79" r="3" fill="#59636e"/>
+<path d="M489.2 95.8L500.4 83.5L508.4 91L514 86.8L522.8 95.8Z" fill="#59636e"/>
+<text x="511" y="134" font-size="14" fill="#59636e" text-anchor="middle">stored</text>
+<text x="472" y="101" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">=?</text>
+<rect x="404.5" y="154" width="49.3" height="24" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.2"/>
+<text x="429.1" y="170.9" font-size="14" font-weight="600" fill="#0969da" text-anchor="middle">PDQ</text>
+<rect x="459.8" y="154" width="75.7" height="24" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.2"/>
+<text x="497.7" y="170.9" font-size="14" font-weight="600" fill="#0969da" text-anchor="middle">DINOv2</text>
+<rect x="591" y="86" width="48" height="36" rx="4" fill="#ffffff" stroke="#59636e" stroke-width="1.5"/>
+<circle cx="625.6" cy="96.8" r="3.6" fill="#59636e"/>
+<path d="M594.8 117L608.3 102.2L617.9 111.2L624.6 106.2L635.2 117Z" fill="#59636e"/>
+<rect x="655" y="70" width="64" height="48" rx="4" fill="#ffffff" stroke="#59636e" stroke-width="1.5"/>
+<circle cx="701.1" cy="84.4" r="4.8" fill="#59636e"/>
+<path d="M660.1 111.3L678 91.6L690.8 103.6L699.8 96.9L713.9 111.3Z" fill="#59636e"/>
+<path d="M625.6 96.8L701.1 84.4" fill="none" stroke="#0969da" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="625.6" cy="96.8" r="2.6" fill="#0969da"/>
+<circle cx="701.1" cy="84.4" r="2.6" fill="#0969da"/>
+<path d="M608.3 102.2L678 91.6" fill="none" stroke="#0969da" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="608.3" cy="102.2" r="2.6" fill="#0969da"/>
+<circle cx="678" cy="91.6" r="2.6" fill="#0969da"/>
+<path d="M624.6 106.2L699.8 96.9" fill="none" stroke="#0969da" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="624.6" cy="106.2" r="2.6" fill="#0969da"/>
+<circle cx="699.8" cy="96.9" r="2.6" fill="#0969da"/>
+<path d="M617.9 111.2L690.8 103.6" fill="none" stroke="#0969da" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="617.9" cy="111.2" r="2.6" fill="#0969da"/>
+<circle cx="690.8" cy="103.6" r="2.6" fill="#0969da"/>
+<path d="M594.8 117L660.1 111.3" fill="none" stroke="#0969da" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="594.8" cy="117" r="2.6" fill="#0969da"/>
+<circle cx="660.1" cy="111.3" r="2.6" fill="#0969da"/>
+<path d="M635.2 117L713.9 111.3" fill="none" stroke="#0969da" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="635.2" cy="117" r="2.6" fill="#0969da"/>
+<circle cx="713.9" cy="111.3" r="2.6" fill="#0969da"/>
+<text x="655" y="154" font-size="14" fill="#59636e" text-anchor="middle">same points,</text>
+<text x="655" y="173" font-size="14" fill="#59636e" text-anchor="middle">same layout</text>
+<circle cx="840" cy="94" r="26" fill="#1a7f37"/>
+<path d="M828 95l8 8l15 -17" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="840" y="152" font-size="18" font-weight="700" fill="#1a7f37" text-anchor="middle">Copy</text>
+<text x="840" y="176" font-size="15" font-weight="600" fill="#1a7f37" text-anchor="middle">with proof</text>
+<text x="100" y="236" font-size="15" font-weight="600" fill="#1f2328" text-anchor="middle">A screenshot</text>
+<text x="100" y="256" font-size="15" fill="#59636e" text-anchor="middle">of a listing page</text>
+<text x="285" y="236" font-size="15" font-weight="600" fill="#1f2328" text-anchor="middle">Find the photo</text>
+<text x="285" y="256" font-size="15" fill="#59636e" text-anchor="middle">inside the page</text>
+<text x="470" y="236" font-size="15" font-weight="600" fill="#1f2328" text-anchor="middle">Compare</text>
+<text x="470" y="256" font-size="15" fill="#59636e" text-anchor="middle">fingerprints</text>
+<text x="655" y="236" font-size="15" font-weight="600" fill="#1f2328" text-anchor="middle">Check geometry</text>
+<text x="655" y="256" font-size="15" fill="#59636e" text-anchor="middle">matching points</text>
+<text x="840" y="236" font-size="15" font-weight="600" fill="#1f2328" text-anchor="middle">Evidence picture</text>
+<text x="840" y="256" font-size="15" fill="#59636e" text-anchor="middle">no points, no copy</text>
+<path d="M24 302L916 302" fill="none" stroke="#d0d7de" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="330" font-size="16" font-weight="600" fill="#1f2328">Screenshots found</text>
+<text x="266" y="367" font-size="15" fill="#1f2328" text-anchor="end">Best published method</text>
+<rect x="280" y="350" width="560" height="24" rx="4" fill="#eaeef2"/>
+<rect x="280" y="350" width="100.8" height="24" rx="4" fill="#8c959f"/>
+<text x="390.8" y="368" font-size="16" font-weight="700" fill="#1f2328">18%</text>
+<text x="266" y="407" font-size="15" font-weight="600" fill="#1f2328" text-anchor="end">This system</text>
+<rect x="280" y="390" width="560" height="24" rx="4" fill="#eaeef2"/>
+<rect x="280" y="390" width="427.3" height="24" rx="4" fill="#0969da"/>
+<text x="717.3" y="408" font-size="16" font-weight="700" fill="#1f2328">76.3%</text>
+<text x="840" y="330" font-size="14" fill="#59636e" text-anchor="end">100%</text>
+<text x="24" y="454" font-size="14" fill="#59636e">Different photo sets: a published benchmark, and 4,000 real photos here.</text></svg>

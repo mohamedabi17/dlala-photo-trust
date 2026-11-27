@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="530" viewBox="0 0 920 530" role="img" aria-label="Bar chart: copies of a stored photo found. Before, the address check found 0% of every type. Now: same file uploaded again 99.8%, JPEG quality 50 99.7%, half size 99.1%, mirror 99.8%, text written over it 99.8%, 70% crop 79.8% (with a stored centre crop), screenshot of a listing page 76.3%, 2 by 2 collage 98.4%. 0 wrong photos confirmed out of 13,000 queries. 4,000 real photos from Open Images V7, laptop figures." font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif"><title>Bar chart: copies of a stored photo found. Before, the address check found 0% of every type. Now: same file uploaded again 99.8%, JPEG quality 50 99.7%, half size 99.1%, mirror 99.8%, text written over it 99.8%, 70% crop 79.8% (with a stored centre crop), screenshot of a listing page 76.3%, 2 by 2 collage 98.4%. 0 wrong photos confirmed out of 13,000 queries. 4,000 real photos from Open Images V7, laptop figures.</title><rect x="0.5" y="0.5" width="919" height="529" rx="12" fill="#161b22" stroke="#3d444d"/><text x="24" y="44" font-size="18" font-weight="600" fill="#e6edf3">Copies of a stored photo found</text>
+<text x="862.9" y="45" font-size="14" font-weight="600" fill="#e6edf3">now</text>
+<rect x="838.9" y="32" width="16" height="16" rx="3" fill="#4493f8"/>
+<text x="519.8" y="45" font-size="14" fill="#9198a1">before (address check): 0% on every row</text>
+<rect x="507.8" y="31" width="4" height="18" rx="1" fill="#6e7681"/>
+<path d="M270 96L270 424" fill="none" stroke="#3d444d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="270" y="88" font-size="14" fill="#9198a1" text-anchor="middle">0%</text>
+<path d="M410 96L410 424" fill="none" stroke="#3d444d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 4"/>
+<text x="410" y="88" font-size="14" fill="#9198a1" text-anchor="middle">25%</text>
+<path d="M550 96L550 424" fill="none" stroke="#3d444d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 4"/>
+<text x="550" y="88" font-size="14" fill="#9198a1" text-anchor="middle">50%</text>
+<path d="M690 96L690 424" fill="none" stroke="#3d444d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 4"/>
+<text x="690" y="88" font-size="14" fill="#9198a1" text-anchor="middle">75%</text>
+<path d="M830 96L830 424" fill="none" stroke="#3d444d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 4"/>
+<text x="830" y="88" font-size="14" fill="#9198a1" text-anchor="middle">100%</text>
+<text x="256" y="129" font-size="15" fill="#e6edf3" text-anchor="end">Same file uploaded again</text>
+<rect x="270" y="112" width="558.9" height="24" rx="4" fill="#4493f8"/>
+<text x="838.9" y="130" font-size="15" font-weight="700" fill="#e6edf3">99.8%</text>
+<text x="256" y="169" font-size="15" fill="#e6edf3" text-anchor="end">JPEG quality 50</text>
+<rect x="270" y="152" width="558.3" height="24" rx="4" fill="#4493f8"/>
+<text x="838.3" y="170" font-size="15" font-weight="700" fill="#e6edf3">99.7%</text>
+<text x="256" y="209" font-size="15" fill="#e6edf3" text-anchor="end">Half size</text>
+<rect x="270" y="192" width="555" height="24" rx="4" fill="#4493f8"/>
+<text x="835" y="210" font-size="15" font-weight="700" fill="#e6edf3">99.1%</text>
+<text x="256" y="249" font-size="15" fill="#e6edf3" text-anchor="end">Mirror</text>
+<rect x="270" y="232" width="558.9" height="24" rx="4" fill="#4493f8"/>
+<text x="838.9" y="250" font-size="15" font-weight="700" fill="#e6edf3">99.8%</text>
+<text x="256" y="289" font-size="15" fill="#e6edf3" text-anchor="end">Text written over it</text>
+<rect x="270" y="272" width="558.9" height="24" rx="4" fill="#4493f8"/>
+<text x="838.9" y="290" font-size="15" font-weight="700" fill="#e6edf3">99.8%</text>
+<text x="256" y="329" font-size="15" fill="#e6edf3" text-anchor="end">70% crop</text>
+<rect x="270" y="312" width="446.9" height="24" rx="4" fill="#4493f8"/>
+<text x="280" y="329" font-size="14" font-weight="600" fill="#0d1117">with a stored centre crop</text>
+<text x="726.9" y="330" font-size="15" font-weight="700" fill="#e6edf3">79.8%</text>
+<text x="256" y="369" font-size="15" fill="#e6edf3" text-anchor="end">Screenshot of a listing page</text>
+<rect x="270" y="352" width="427.3" height="24" rx="4" fill="#4493f8"/>
+<text x="280" y="369" font-size="14" font-weight="600" fill="#0d1117">region fingerprints</text>
+<text x="707.3" y="370" font-size="15" font-weight="700" fill="#e6edf3">76.3%</text>
+<text x="256" y="409" font-size="15" fill="#e6edf3" text-anchor="end">2 × 2 collage</text>
+<rect x="270" y="392" width="551" height="24" rx="4" fill="#4493f8"/>
+<text x="280" y="409" font-size="14" font-weight="600" fill="#0d1117">regions and tiles</text>
+<text x="831" y="410" font-size="15" font-weight="700" fill="#e6edf3">98.4%</text>
+<rect x="268" y="96" width="4" height="328" rx="1" fill="#6e7681"/>
+<path d="M24 448L896 448" fill="none" stroke="#3d444d" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="24" y="496" font-size="40" font-weight="700" fill="#3fb950">0</text>
+<text x="60" y="478" font-size="16" font-weight="600" fill="#e6edf3">wrong photos confirmed</text>
+<text x="60" y="499" font-size="14" fill="#9198a1">out of 13,000 queries</text>
+<text x="896" y="478" font-size="14" fill="#9198a1" text-anchor="end">4,000 real photos (Open Images V7)</text>
+<text x="896" y="499" font-size="14" fill="#9198a1" text-anchor="end">thresholds set on one half, measured on the other</text></svg>

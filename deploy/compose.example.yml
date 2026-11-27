@@ -1,0 +1,90 @@
+# The two photo-check services as they run in production, reduced to what this repository holds.
+# The calling API is not part of this repository: add your own service to the `vision` network and give it
+# VISION_URL=http://vision:8080 and VLM_URL=http://vlm:8080.
+#
+#   docker build -t dlala-vision:local service
+#   docker run --rm -v dlala_vision_models:/models -e MODELS_DIR=/models dlala-vision:local \
+#     python -m app.fetch_models --lock models.lock.json --dest /models --groups vision vlm
+#   docker compose -f deploy/compose.example.yml up -d
+#
+# Isolation: no published port; the network is internal (no route to the internet); the models volume is
+# read-only; no secret; read-only root filesystems; no capability. Limits: see service/README.md and
+# service/vlm/README.md, « Measurements » (laptop figures; the ARM figures are still to be measured).
+
+services:
+  vision:
+    image: dlala-vision:local
+    restart: unless-stopped
+    networks: [vision]
+    volumes:
+      - vision_models:/models:ro
+    environment:
+      DINO_VARIANT: small
+      VISION_IDLE_UNLOAD_S: "600"   # models leave memory after 10 idle minutes; the next request reloads them
+    cpus: "0.75"
+    cpu_shares: 256                 # a quarter of the default weight (1024): the API comes first
+    mem_limit: 1200m                # measured peak 937 MB (4096 px photos), steady 680 MB, 122 MB after idle unload
+    memswap_limit: 1200m            # no swap: a leak ends in a restart, not in a slow server
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys, urllib.request; sys.exit(urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=5).status != 200)"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+      start_period: 20s
+
+  vlm:
+    # llama.cpp's server, pinned by digest (service/models.lock.json "images").
+    image: ghcr.io/ggml-org/llama.cpp:server-b12679@sha256:6fab63852916c294cc8a2f1515079c4ca40248193eea8868ae742134335b989b
+    restart: unless-stopped
+    networks: [vision]
+    user: "65534:65534"             # nobody: it only reads the models
+    volumes:
+      - vision_models:/models:ro
+    # The flags are explained in service/vlm/README.md. The image listens on 0.0.0.0:8080.
+    command:
+      - -m
+      - /models/vlm/Qwen3VL-2B-Instruct-Q4_K_M.gguf
+      - --mmproj
+      - /models/vlm/mmproj-Qwen3VL-2B-Instruct-Q8_0.gguf
+      - -np
+      - "1"
+      - -c
+      - "2048"
+      - -t
+      - "1"
+      - -tb
+      - "1"
+      - -cram
+      - "0"
+      - --image-max-tokens
+      - "512"
+      - --no-repack                 # weights stay in the mapped file: 0.8 GB less private memory, answers ~40 % slower
+      - --no-ui
+      - --sleep-idle-seconds
+      - "300"
+    cpus: "1.0"
+    cpu_shares: 128                 # an eighth of the default weight: it only gets the CPU the API leaves
+    mem_limit: 2048m                # measured peak RSS 1.90 GB, of which 1.07 GB are mapped model pages
+    memswap_limit: 2048m
+    read_only: true
+    tmpfs: [/tmp]
+    cap_drop: [ALL]
+    security_opt: ["no-new-privileges:true"]
+    healthcheck:                    # /health never wakes a sleeping model
+      test: ["CMD", "curl", "-fsS", "http://localhost:8080/health"]
+      interval: 60s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+
+networks:
+  vision:
+    internal: true                  # no gateway: nothing on it can reach the internet
+
+volumes:
+  vision_models:
+    name: dlala_vision_models
