@@ -1,0 +1,19 @@
+{
+  "$comment": "The three starting values the calibration scripts read (pdq.maxDistance, pdq.minQuality, verify.minInliers), copied from the API configuration as it was when the runs were made (2026-11-24 and 2026-11-25). Public values with their published sources; the API's other settings are not part of this repository.",
+  "pdq": {
+    "maxDistance": {
+      "value": 31,
+      "source": "ThreatExchange pdq/README.md: match threshold \"<=31\" Hamming bits (https://github.com/facebook/ThreatExchange/tree/main/pdq; read 23-24 Nov 2026, note 40 Phase 0). Also the largest distance the 16-band lookup is sure to find."
+    },
+    "minQuality": {
+      "value": 49,
+      "source": "ThreatExchange pdq/README.md: discard hashes of quality \"<=49\" (same source as maxDistance). A hash counts only when its quality is above this value."
+    }
+  },
+  "verify": {
+    "minInliers": {
+      "value": 12,
+      "source": "Kazempourradi et al., Watermarks and Fingerprints as Soft Bindings for Content Provenance, arXiv:2610.04151 (2 Oct 2026): geometric verification SIFT + RANSAC counts 12 inliers as a match (note 40, section 2)."
+    }
+  }
+}

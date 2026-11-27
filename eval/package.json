@@ -1,0 +1,9 @@
+{
+  "name": "dlala-photo-trust-eval",
+  "private": true,
+  "description": "Evaluation sets and calibration scripts of the photo checks (Node part: manifests, downloads, generated copies).",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "sharp": "0.35.5"
+  }
+}

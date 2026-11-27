@@ -1,0 +1,185 @@
+{
+  "about": "Title-and-photo pairs (plan 40, phase 1): `expected` is the outcome the photo checks must reach; image ids refer to vision-manifest.json.",
+  "pairs": [
+    {
+      "id": "pair-01",
+      "title": "Robe blanc ivoire",
+      "images": [
+        "wm-18240339"
+      ],
+      "expected": "approve",
+      "group": "ivory",
+      "why": "colour word, no ivory on the photo"
+    },
+    {
+      "id": "pair-02",
+      "title": "Statuette en ivoire",
+      "images": [
+        "wm-157554590"
+      ],
+      "expected": "refuse",
+      "group": "ivory",
+      "why": "the title and the photo agree: ivory"
+    },
+    {
+      "id": "pair-03",
+      "title": "Réplique de lampe Tiffany",
+      "images": [
+        "wm-75532701"
+      ],
+      "expected": "approve",
+      "group": "counterfeit",
+      "why": "a replica lamp is allowed"
+    },
+    {
+      "id": "pair-04",
+      "title": "Sac de luxe, réplique",
+      "images": [
+        "wm-150682125"
+      ],
+      "expected": "refuse",
+      "group": "counterfeit",
+      "why": "« réplique » plus a luxury brand on the photo is a counterfeit"
+    },
+    {
+      "id": "pair-05",
+      "title": "Pistolet jouet pour enfant",
+      "images": [
+        "wm-55532776"
+      ],
+      "expected": "approve",
+      "group": "weapons",
+      "why": "« pistolet » names a toy"
+    },
+    {
+      "id": "pair-06",
+      "title": "Réplique airsoft",
+      "images": [
+        "wm-97853776"
+      ],
+      "expected": "approve",
+      "group": "weapons",
+      "why": "an airsoft replica is not a firearm and names no brand"
+    },
+    {
+      "id": "pair-07",
+      "title": "Objet décoratif",
+      "images": [
+        "wm-27717359"
+      ],
+      "expected": "refuse",
+      "group": "weapons",
+      "why": "no restricted word, the photo shows a firearm"
+    },
+    {
+      "id": "pair-08",
+      "title": "Bibelot ancien",
+      "images": [
+        "wm-46791088"
+      ],
+      "expected": "refuse",
+      "group": "protected_species",
+      "why": "no restricted word, the photo shows taxidermy"
+    },
+    {
+      "id": "pair-09",
+      "title": "Crâne en résine, décoration",
+      "images": [
+        "wm-12853379"
+      ],
+      "expected": "approve",
+      "group": "human_remains",
+      "why": "decorative skull"
+    },
+    {
+      "id": "pair-10",
+      "title": "Crâne de collection",
+      "images": [
+        "wm-63011137"
+      ],
+      "expected": "refuse",
+      "group": "human_remains",
+      "why": "no restricted word, the photo shows a human skull"
+    },
+    {
+      "id": "pair-11",
+      "title": "Casque militaire 14-18",
+      "images": [
+        "wm-28959554"
+      ],
+      "expected": "approve",
+      "group": "nazi",
+      "why": "militaria without a Nazi symbol"
+    },
+    {
+      "id": "pair-12",
+      "title": "Insigne militaire allemand",
+      "images": [
+        "wm-73415309"
+      ],
+      "expected": "refuse",
+      "group": "nazi",
+      "why": "no restricted word, the photo shows a Nazi decoration"
+    },
+    {
+      "id": "pair-13",
+      "title": "Lot de monnaies trouvées au détecteur",
+      "images": [
+        "wm-55778446"
+      ],
+      "expected": "refuse",
+      "group": "cultural_goods",
+      "why": "the title and the photo agree: a detector find"
+    },
+    {
+      "id": "pair-14",
+      "title": "Manteau en fausse fourrure de léopard",
+      "images": [
+        "wm-126302356"
+      ],
+      "expected": "approve",
+      "group": "protected_species",
+      "why": "« fourrure de léopard » inside « fausse fourrure »"
+    },
+    {
+      "id": "pair-15",
+      "title": "Lunettes écaille de tortue",
+      "images": [
+        "wm-3904317"
+      ],
+      "expected": "approve",
+      "group": "protected_species",
+      "why": "tortoiseshell pattern on acetate frames"
+    },
+    {
+      "id": "pair-16",
+      "title": "Livre archéologique illustré",
+      "images": [
+        "wm-115050479"
+      ],
+      "expected": "approve",
+      "group": "cultural_goods",
+      "why": "a book about archaeology"
+    },
+    {
+      "id": "pair-17",
+      "title": "Peinture blanc ivoire",
+      "images": [
+        "wm-14583658"
+      ],
+      "expected": "approve",
+      "group": "ivory",
+      "why": "colour word, no ivory on the photo"
+    },
+    {
+      "id": "pair-18",
+      "title": "Animal naturalisé",
+      "images": [
+        "wm-74100317"
+      ],
+      "expected": "refuse",
+      "group": "protected_species",
+      "why": "the title and the photo agree: taxidermy"
+    }
+  ]
+}
