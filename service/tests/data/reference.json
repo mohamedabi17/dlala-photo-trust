@@ -1,0 +1,56 @@
+{
+ "about": "PyTorch reference vectors for the ONNX test (plan phase 3: cosine >= 0.999 on 20 images).",
+ "built": "2026-11-24",
+ "torch": "2.15.0+cpu",
+ "transformers": "5.24.0",
+ "fixtures": [
+  "abo-0007ef0a",
+  "abo-000cddab",
+  "abo-000dc030",
+  "abo-000de7e4",
+  "abo-00128296",
+  "abo-00171a2f",
+  "abo-0017a8e4",
+  "abo-0019f1b7",
+  "abo-003118eb",
+  "abo-0035033a",
+  "abo-003a21c6",
+  "abo-00402484",
+  "wm-33277763",
+  "wm-33284613",
+  "wm-33284915",
+  "wm-33285967",
+  "wm-33298044",
+  "wm-35195774",
+  "wm-sally-ride",
+  "wm-mae-jemison"
+ ],
+ "models": {
+  "dino-small": {
+   "repo": "facebook/dinov2-small",
+   "revision": "ed25f3a31f01632728cabb09d1542f84ab7b0056",
+   "processor": "BitImageProcessorPil",
+   "processor_kwargs": {
+    "do_center_crop": false,
+    "size": {
+     "height": 224,
+     "width": 224
+    }
+   },
+   "dim": 384
+  },
+  "dino-base": {
+   "repo": "facebook/dinov2-base",
+   "revision": "f9e44c814b77203eaa57a6bdbbd535f21ede1415",
+   "processor": "BitImageProcessorPil",
+   "processor_kwargs": {
+    "do_center_crop": false,
+    "size": {
+     "height": 224,
+     "width": 224
+    }
+   },
+   "dim": 768
+  }
+ }
+}

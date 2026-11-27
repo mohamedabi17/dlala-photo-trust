@@ -1,0 +1,7 @@
+# Only the service goes into the image: no tests, tools, documentation or caches.
+tests
+tools
+vlm
+*.md
+**/__pycache__
+**/*.pyc

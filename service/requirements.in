@@ -1,0 +1,8 @@
+# Runtime of the vision service (plan phase 3). Locked with hashes in requirements.lock:
+#   uv pip compile requirements.in --universal --python-version 3.12 --generate-hashes -o requirements.lock
+onnxruntime==1.32.0
+numpy==2.5.5
+opencv-python-headless==4.14.0.94
+pillow==13.0.0
+pdqhash==0.2.8
+rapidocr==3.10.0

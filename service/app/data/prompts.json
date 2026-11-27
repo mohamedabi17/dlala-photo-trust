@@ -1,0 +1,59 @@
+{
+ "about": "SAMPLE prompt set, not the production one. The production prompts are private (they would show what the screen looks for); this file shows the format and gives one plain description per group, so the service runs and its tests pass. Vectors in prompts.npy (same order) are the SigLIP 2 text vectors of exactly these texts. Score of an image for one prompt: sigmoid(cos(image, prompt) * exp(logit_scale) + logit_bias); a group's score is the maximum over its prompts. 'ordinary' prompts are negatives. Rebuild with tools/build-prompts.py.",
+ "sample": true,
+ "model": "google/siglip2-base-patch16-224",
+ "revision": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+ "weights_sha256": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b",
+ "text": {
+  "lowercase": true,
+  "padding": "max_length",
+  "max_length": 64,
+  "truncation": true
+ },
+ "logit_scale": 4.724453449249268,
+ "logit_bias": -16.771724700927734,
+ "built": "2026-11-24",
+ "torch": "2.15.0+cpu",
+ "prompts": [
+  {
+   "group": "ivory",
+   "text": "a photo of a carved elephant ivory figurine"
+  },
+  {
+   "group": "protected_species",
+   "text": "a photo of a tiger skin rug"
+  },
+  {
+   "group": "weapons",
+   "text": "a photo of a handgun"
+  },
+  {
+   "group": "counterfeit",
+   "text": "a photo of a luxury designer handbag with a monogram logo"
+  },
+  {
+   "group": "cultural_goods",
+   "text": "a photo of an ancient egyptian artifact"
+  },
+  {
+   "group": "human_remains",
+   "text": "a photo of a human skeleton"
+  },
+  {
+   "group": "nazi",
+   "text": "a photo of a swastika"
+  },
+  {
+   "group": "ordinary",
+   "text": "a photo of a wooden chair"
+  },
+  {
+   "group": "ordinary",
+   "text": "a photo of a porcelain vase"
+  },
+  {
+   "group": "ordinary",
+   "text": "a photo of a framed painting"
+  }
+ ]
+}

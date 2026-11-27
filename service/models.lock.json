@@ -1,0 +1,82 @@
+{
+  "about": "Model files of the vision and vlm services (design note 40, phase 3). They are never baked into an image: deploy/fetch-models.sh downloads each file once into the vision_models volume and checks its size and sha256 against this file. Only free, open models whose licence allows commercial use (phase 0, 24/11/2026). 'group' decides what is fetched: 'vision' and 'vlm' always, 'vision-dino-base' only for DINO_VARIANT=base. Full precision (fp32): the int8 versions failed the check of cosine >= 0.99 against fp32 (vision/README.md, 'int8').",
+  "checked": "2026-11-24",
+  "files": [
+    {
+      "id": "siglip2-vision",
+      "group": "vision",
+      "path": "vision/siglip2-base-patch16-224/vision_model.onnx",
+      "url": "https://huggingface.co/onnx-community/siglip2-base-patch16-224-ONNX/resolve/ba1f3b0843f24bc5417d38e19c37b287d719b2f4/onnx/vision_model.onnx",
+      "sha256": "c0573e3f4140c3a7c4e9cc5912bd6b26a033b46a6a8e8af26cbea262b163bcad",
+      "size": 371807752,
+      "licence": "Apache-2.0",
+      "licence_source": "https://huggingface.co/google/siglip2-base-patch16-224 (model card, line 2: license: apache-2.0); the ONNX export repository declares no licence and derives from it",
+      "source_page": "https://huggingface.co/onnx-community/siglip2-base-patch16-224-ONNX"
+    },
+    {
+      "id": "dinov2-small",
+      "group": "vision",
+      "path": "vision/dinov2-small/model.onnx",
+      "url": "https://huggingface.co/onnx-community/dinov2-small/resolve/8b1f705a3a7f6f062f6bdd21986c1583d3ef105d/onnx/model.onnx",
+      "sha256": "f22797eabf810a75e41de68d378541ebea372122b25c4ce3ef25ff618250c20a",
+      "size": 88532934,
+      "licence": "Apache-2.0",
+      "licence_source": "https://huggingface.co/facebook/dinov2-small (model card, line 2: license: apache-2.0); the ONNX export repository declares no licence and derives from it",
+      "source_page": "https://huggingface.co/onnx-community/dinov2-small"
+    },
+    {
+      "id": "yunet-2023mar",
+      "group": "vision",
+      "path": "vision/yunet/face_detection_yunet_2023mar.onnx",
+      "url": "https://media.githubusercontent.com/media/opencv/opencv_zoo/eb9f4f2d4b79b58e5513b5d25d5f0243a8357bf4/models/face_detection_yunet/face_detection_yunet_2023mar.onnx",
+      "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+      "size": 232589,
+      "licence": "MIT",
+      "licence_source": "https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet (README lines 67-69 and LICENSE: MIT License, Copyright (c) 2020 Shiqi Yu)",
+      "source_page": "https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet",
+      "notes": "Pinned together with opencv-python-headless 4.14.0.94 (vision/requirements.lock): the 2023mar file is the one for OpenCV 4.x (phase 0, point 5)."
+    },
+    {
+      "id": "dinov2-base",
+      "group": "vision-dino-base",
+      "path": "vision/dinov2-base/model.onnx",
+      "url": "https://huggingface.co/onnx-community/dinov2-base/resolve/31ef06cac16d5d301c5930d147002a058c85a5e4/onnx/model.onnx",
+      "sha256": "320d1012a6fc65b101fc85ca30ee7a47b2e4f6a2e8bd78fb9d7036def0e30cb0",
+      "size": 346627111,
+      "licence": "Apache-2.0",
+      "licence_source": "https://huggingface.co/facebook/dinov2-base (model card, line 2)",
+      "source_page": "https://huggingface.co/onnx-community/dinov2-base"
+    },
+    {
+      "id": "qwen3-vl-2b-q4km",
+      "group": "vlm",
+      "path": "vlm/Qwen3VL-2B-Instruct-Q4_K_M.gguf",
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF/resolve/52d6c8ffea26cc873ac5ad116f8631268d7eb503/Qwen3VL-2B-Instruct-Q4_K_M.gguf",
+      "sha256": "089d75c52f4b7ffc56ba998ffc50aae89fcafc755f9e7208aacca281dca6c2ae",
+      "size": 1107409952,
+      "licence": "Apache-2.0",
+      "licence_source": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF (model card, line 2: license: apache-2.0)",
+      "source_page": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF"
+    },
+    {
+      "id": "qwen3-vl-2b-mmproj-q8",
+      "group": "vlm",
+      "path": "vlm/mmproj-Qwen3VL-2B-Instruct-Q8_0.gguf",
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF/resolve/52d6c8ffea26cc873ac5ad116f8631268d7eb503/mmproj-Qwen3VL-2B-Instruct-Q8_0.gguf",
+      "sha256": "f9a68fabba69c3b81e153367b2c7521030b0fa8bb0de400c9599c8e6725f9c82",
+      "size": 445053216,
+      "licence": "Apache-2.0",
+      "licence_source": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF (model card, line 2: license: apache-2.0)",
+      "source_page": "https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct-GGUF"
+    }
+  ],
+  "images": {
+    "vlm": {
+      "ref": "ghcr.io/ggml-org/llama.cpp:server-b12679@sha256:6fab63852916c294cc8a2f1515079c4ca40248193eea8868ae742134335b989b",
+      "arm64": "sha256:5a5dd7695f4d45ebbe3b7aa4e6c9501e45afd7ada1c3446b05e03c84284627b1",
+      "licence": "MIT",
+      "source_page": "https://github.com/ggml-org/llama.cpp/blob/b12679/docs/docker.md",
+      "notes": "Multi-platform index pinned by digest (phase 0, point 2). Public: pulled without a token."
+    }
+  }
+}

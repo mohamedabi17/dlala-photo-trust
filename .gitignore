@@ -1,0 +1,12 @@
+# Model weights, evaluation images, caches and reports: fetched or made locally, never committed.
+artifacts/
+models/
+*.onnx
+*.gguf
+*.safetensors
+eval/node_modules/
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+*.part

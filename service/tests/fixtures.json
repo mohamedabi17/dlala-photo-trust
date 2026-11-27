@@ -1,0 +1,403 @@
+{
+ "about": "Test images, downloaded once into a cache by tests/fixtures.py and checked by sha256 (never committed). 20 photo/face images for the ONNX reference test; the PDQ images of ThreatExchange pdq/data for the PDQ compliance test.",
+ "files": [
+  {
+   "id": "abo-0007ef0a",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/0007ef0a.jpg",
+   "sha256": "849cf0fdc5f2208001d4beca7a2f220642aab98ad2ca4e12c0b05aca7f9aa135",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "abo-000cddab",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/000cddab.jpg",
+   "sha256": "cb0ceefba928dd88af5e99c86759ab3a01365b5cd49f32cdbed37dfba7df9f0c",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "abo-000dc030",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/000dc030.jpg",
+   "sha256": "ad2bf47f3ea15796a08c3dbc2210ecf71ceeba95a3b2790090ca79f0741859fb",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "abo-000de7e4",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/000de7e4.jpg",
+   "sha256": "90a996b9f173328754f8c76fd25066dc4b344725ddc463649b9795bdfa4bea03",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "abo-00128296",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/00128296.jpg",
+   "sha256": "658b62e6866a7adb0bf4febbdd8494ac688588470d424c7d39911ad8688421f3",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "abo-00171a2f",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/00171a2f.jpg",
+   "sha256": "133d7e56439a1238a2af98416768622e986259205d77eab7dc370ab4dbaf27bc",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "abo-0017a8e4",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/0017a8e4.jpg",
+   "sha256": "8840f851eadbe6022a9aa3d6e180ab458800082bf875c97be441c82b19d99f4b",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "abo-0019f1b7",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/0019f1b7.jpg",
+   "sha256": "b7ff84f5927d537b359e64703cfd68642ad13ba166f0fa8c1056085747191c6c",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "abo-003118eb",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/003118eb.jpg",
+   "sha256": "7eebf163255edd6d7e60c7bc1f77789f3e107f856b76649cd785174afe1d31a5",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "abo-0035033a",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/0035033a.jpg",
+   "sha256": "7d0c644fcaa3e912926f65b2cf8bca584b7d287af32fc0ce40e5a1d6103fe165",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "abo-003a21c6",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/003a21c6.jpg",
+   "sha256": "0287c040fb6c2c4e8b8de634131bfd8db6542393ef4da49122deeaad016a0b37",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "abo-00402484",
+   "kind": "photo",
+   "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/small/00/00402484.jpg",
+   "sha256": "5a8c6f814b601ce00d6e01d8f2fe53fc0bec05d191f0fa59600577633a770031",
+   "licence": "CC BY 4.0",
+   "credit": "Amazon Berkeley Objects",
+   "page": "https://amazon-berkeley-objects.s3.amazonaws.com/index.html",
+   "ext": ".jpg"
+  },
+  {
+   "id": "wm-33277763",
+   "kind": "photo",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Netsuke_in_de_vorm_van_een_visser_in_regenkleding-Rijksmuseum_AK-MAK-996.jpeg",
+   "sha256": "e612c6d753bff2d5a4e5f4859bd12d9a95199cfcab0a6e6cae6238683ce3983a",
+   "licence": "Public domain",
+   "credit": "Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Netsuke_in_de_vorm_van_een_visser_in_regenkleding-Rijksmuseum_AK-MAK-996.jpeg",
+   "ext": ".jpeg"
+  },
+  {
+   "id": "wm-33284613",
+   "kind": "photo",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Netsuke-Rijksmuseum_AK-MAK-1440.jpeg",
+   "sha256": "23a495e6c283fa27bc2d1676851734db977bfa677f6553bf047685d9d2706938",
+   "licence": "Public domain",
+   "credit": "Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Netsuke-Rijksmuseum_AK-MAK-1440.jpeg",
+   "ext": ".jpeg"
+  },
+  {
+   "id": "wm-33284915",
+   "kind": "photo",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Netsuke-Rijksmuseum_AK-MAK-1445.jpeg",
+   "sha256": "0c1b3aaa5ec31533f905a12607debb52e463dda58737648e0fdcafc7d6607437",
+   "licence": "Public domain",
+   "credit": "Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Netsuke-Rijksmuseum_AK-MAK-1445.jpeg",
+   "ext": ".jpeg"
+  },
+  {
+   "id": "wm-33285967",
+   "kind": "photo",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Netsuke-Rijksmuseum_AK-MAK-1436.jpeg",
+   "sha256": "ac6b8dcc2e6426b8e59e804f1d9d153627f1d8af10421716892d3ce2bbc40dcb",
+   "licence": "Public domain",
+   "credit": "Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Netsuke-Rijksmuseum_AK-MAK-1436.jpeg",
+   "ext": ".jpeg"
+  },
+  {
+   "id": "wm-33298044",
+   "kind": "photo",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Netsuke_in_de_vorm_van_een_vrouw_met_kind_en_kat-Rijksmuseum_AK-MAK-993.jpeg",
+   "sha256": "8f3f3e7215684424a3a13e90f55fb937ea8ad5f503a07a72750ea61af8fa8827",
+   "licence": "Public domain",
+   "credit": "Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Netsuke_in_de_vorm_van_een_vrouw_met_kind_en_kat-Rijksmuseum_AK-MAK-993.jpeg",
+   "ext": ".jpeg"
+  },
+  {
+   "id": "wm-35195774",
+   "kind": "photo",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Tiger_netsuke_signed_Takeharu%2C_18th-19th_century%2C_ivory%2C_Honolulu_Museum_of_Art%2C_6933.1.JPG",
+   "sha256": "33fc48346c6f4254f6e49953228f79ef447a7f1fa7fe9c637bd8c87117ddd5dd",
+   "licence": "CC0",
+   "credit": "Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Tiger_netsuke_signed_Takeharu,_18th-19th_century,_ivory,_Honolulu_Museum_of_Art,_6933.1.JPG",
+   "ext": ".jpg"
+  },
+  {
+   "id": "wm-sally-ride",
+   "kind": "face",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Sally_Ride_%281984%29.jpg",
+   "sha256": "ea25b741c25978a84efbd5c0c333c61e59486768178799c7f32b05d07e851cef",
+   "licence": "Public domain (NASA)",
+   "credit": "Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Sally_Ride_(1984).jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "wm-mae-jemison",
+   "kind": "face",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Mae_Jemison_in_Space.jpg",
+   "sha256": "e4909d69f36018374244c1b6d1a8b043239c84042c4a3ce1beb0cc740afcc542",
+   "licence": "Public domain (NASA)",
+   "credit": "Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Mae_Jemison_in_Space.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-c",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/misc-images/c.png",
+   "sha256": "93aa0ba454d3805e02be04a883b839a85bee83d0cbac3d306331584c1ebec0c6",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "misc-images/c.png",
+   "ext": ".png"
+  },
+  {
+   "id": "pdq-small",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/misc-images/small.jpg",
+   "sha256": "329479790610cd0a2668eea439374cf279ef58d7330400dbb4e3569429ef5e3d",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "misc-images/small.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-wee",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/misc-images/wee.jpg",
+   "sha256": "05636c50d0c2ffe3a820f964eaba35b404deadd10538fe452ad9fb16fdd823d7",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "misc-images/wee.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-q0003",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/labelme-subset/q0003.jpg",
+   "sha256": "9f93a23582535bc62088240e38ee050c9c0e2eed5c4741339b8415bf04a0604e",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/labelme-subset/q0003.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-q0004",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/labelme-subset/q0004.jpg",
+   "sha256": "d517f25c0142f9d897a00959acc16ac2a67cf20ade0997bb5ab378f607ab7f3b",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/labelme-subset/q0004.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-q0122",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/labelme-subset/q0122.jpg",
+   "sha256": "3e7b6b95d72f6ea61c0e6c3f2a4afc7c78ee2ab08b9ac51c58388e50deb139e9",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/labelme-subset/q0122.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-q0291",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/labelme-subset/q0291.jpg",
+   "sha256": "25db315820a1faee9bc4a8086914f4c6fcb818448a0e1a707fe160bb67818846",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/labelme-subset/q0291.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-q0746",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/labelme-subset/q0746.jpg",
+   "sha256": "acf23ed39052296ed032981dcdc063a1e442691be54e2927043a08f97675a1f1",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/labelme-subset/q0746.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-q1050",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/labelme-subset/q1050.jpg",
+   "sha256": "e570fd8266489c94f1da079da69e62c24e90851c424e5a26f63ebdd13f0e51a4",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/labelme-subset/q1050.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-q2821",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/labelme-subset/q2821.jpg",
+   "sha256": "418b85299aa697927c29ff139280a988ec3c44df540a35c221dcb0fcf8051fcd",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/labelme-subset/q2821.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-bridge-1-original",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/dih/bridge-1-original.jpg",
+   "sha256": "b5b0799616df52d475a3968dc7e54f1d0724c912244ffa6175bc786375dd7298",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/dih/bridge-1-original.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-bridge-2-rotate-90",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/dih/bridge-2-rotate-90.jpg",
+   "sha256": "a4ec0b39cf38469e3c5e16869a5ea1f23995b42a4b5de15d223e905b87788317",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/dih/bridge-2-rotate-90.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-bridge-3-rotate-180",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/dih/bridge-3-rotate-180.jpg",
+   "sha256": "fc9073d9b08f7b4d90e0fbdb4693fa7c58a9746dfc4c339fce5b3320905a3b3b",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/dih/bridge-3-rotate-180.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-bridge-4-rotate-270",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/dih/bridge-4-rotate-270.jpg",
+   "sha256": "ed7769b97c8eab168eefe5cc5a49a1372d25cfecb354e457153a8e45f208daa5",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/dih/bridge-4-rotate-270.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-bridge-5-flipx",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/dih/bridge-5-flipx.jpg",
+   "sha256": "3069d9eb8d9de760229cf99ddcc5a7834f08e3924b37c080c2df8bc5836737fb",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/dih/bridge-5-flipx.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-bridge-6-flipy",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/dih/bridge-6-flipy.jpg",
+   "sha256": "c2225164ee53418ec001fa33bf9a4cf95a73514f493c87f676a1af9f9624d19b",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/dih/bridge-6-flipy.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-bridge-7-flip-plus-1",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/dih/bridge-7-flip-plus-1.jpg",
+   "sha256": "355dd5a4ccef6e205ed705c73bce8676981f9f943a06453a2f68d9d8bba3f7f1",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/dih/bridge-7-flip-plus-1.jpg",
+   "ext": ".jpg"
+  },
+  {
+   "id": "pdq-bridge-8-flip-minus-1",
+   "kind": "pdq",
+   "url": "https://raw.githubusercontent.com/facebook/ThreatExchange/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data/reg-test-input/dih/bridge-8-flip-minus-1.jpg",
+   "sha256": "092bfe6026946f3b9322662d010fb16dabf3da7ece9f0cbaad99772fdf16a30e",
+   "licence": "BSD (ThreatExchange repository)",
+   "credit": "facebook/ThreatExchange pdq/data",
+   "page": "https://github.com/facebook/ThreatExchange/tree/eefe31ac9cd683585247ec770845f0cbb3408793/pdq/data",
+   "pdq_path": "reg-test-input/dih/bridge-8-flip-minus-1.jpg",
+   "ext": ".jpg"
+  }
+ ]
+}
